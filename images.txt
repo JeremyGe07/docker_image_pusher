@@ -2,4 +2,4 @@
 opengrok/docker
 ghcr.io/huggingface/text-generation-inference
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+# --platform=linux/arm64 xiaoyaliu/alist
