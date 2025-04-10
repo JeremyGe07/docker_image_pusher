@@ -1,2 +1,4 @@
-lmsysorg/sglang:latest
-vllm/vllm-openai:v0.8.3
+# ghcr.io/tenstorrent/tt-mlir/tt-mlir-ci-ubuntu-22-04:latest
+# lmsysorg/sglang:latest
+# vllm/vllm-openai:v0.8.3
+ghcr.io/tenstorrent/tt-metal/tt-metalium-ubuntu-22.04-amd64-release:latest-rc
