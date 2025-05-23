@@ -6,3 +6,4 @@
 # ghcr.io/tenstorrent/tt-forge-fe/tt-forge-fe-ird-ubuntu-22-04
 # ghcr.io/tenstorrent/tt-metal/tt-metalium-ubuntu-20.04-amd64-release:v0.56.0-rc33
 ghcr.io/tenstorrent/tt-metal/tt-metalium-ubuntu-22.04-release-amd64:v0.58.0-rc40
+ghcr.io/tenstorrent/tt-metal/tt-metalium-ubuntu-22.04-release-amd64:v0.59.0-rc19
