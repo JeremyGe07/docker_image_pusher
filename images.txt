@@ -9,4 +9,5 @@
 # ghcr.io/tenstorrent/tt-metal/tt-metalium-ubuntu-22.04-release-amd64:v0.59.0-rc19
 #lmsysorg/sglang:v0.4.9.post3-cu126
 #vllm/vllm-openai:v0.9.2
-vllm/vllm-openai:v0.10.0
+#vllm/vllm-openai:v0.10.0
+qdrant/qdrant
