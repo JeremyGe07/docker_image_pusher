@@ -11,4 +11,6 @@
 #vllm/vllm-openai:v0.9.2
 #vllm/vllm-openai:v0.10.0
 #qdrant/qdrant
-nvcr.io/nvidia/cuda:12.4.1-devel-ubuntu22.04
+#nvcr.io/nvidia/cuda:12.4.1-devel-ubuntu22.04
+
+ghcr.io/tenstorrent/tt-forge-fe/tt-forge-fe-ird-ubuntu-22-04:dt-f77014a00c64105aaf6f7aaf98127a7a1bebd4f9ec1f6f676c2d296a70b9dec9
