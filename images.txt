@@ -17,4 +17,5 @@
 
 #vllm/vllm-openai:v0.11.0
 #homebrew/ubuntu22.04
-vllm/vllm-openai:v0.13.0
+#vllm/vllm-openai:v0.13.0
+vllm/vllm-openai:nightly
