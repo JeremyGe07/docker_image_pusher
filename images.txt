@@ -16,4 +16,5 @@
 # ghcr.io/tenstorrent/tt-forge-fe/tt-forge-fe-ird-ubuntu-22-04:dt-f77014a00c64105aaf6f7aaf98127a7a1bebd4f9ec1f6f676c2d296a70b9dec9
 
 #vllm/vllm-openai:v0.11.0
-homebrew/ubuntu22.04
+#homebrew/ubuntu22.04
+vllm/vllm-openai:v0.13.0
