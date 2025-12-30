@@ -19,4 +19,4 @@
 #homebrew/ubuntu22.04
 #vllm/vllm-openai:v0.13.0
 # vllm/vllm-openai:nightly
-vllm/vllm-openai:nightly
+lmsysorg/sglang:nightly-dev-20251230-f4ec6f8e
