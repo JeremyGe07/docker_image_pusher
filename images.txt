@@ -22,4 +22,5 @@
 # lmsysorg/sglang:nightly-dev-20251230-f4ec6f8e
 # vllm/vllm-openai:nightly
 # lmsysorg/nightly-dev-20260122-e6ccb294
-vllm/vllm-openai:nightly-x86_64
+# vllm/vllm-openai:nightly-x86_64
+vllm/vllm-openai:glm5
