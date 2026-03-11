@@ -17,5 +17,5 @@ RUN uv pip install --system \
 
 RUN curl -L https://github.com/vllm-project/vllm/archive/refs/heads/main.tar.gz -o /tmp/vllm-main.tar.gz && \
     tar -xzf /tmp/vllm-main.tar.gz -C /tmp && \
-    bash /tmp/vllm-main/tools/install_deepgemm.sh --cuda-version 13.0 && \
+    VLLM_DOCKER_BUILD_CONTEXT=1 bash /tmp/vllm-main/tools/install_deepgemm.sh --cuda-version 13.0 && \
     rm -rf /tmp/vllm-main /tmp/vllm-main.tar.gz
