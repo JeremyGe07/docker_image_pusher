@@ -1,7 +1,7 @@
 FROM vllm/vllm-openai:v0.17.0
 
 RUN apt-get update && \
-    apt-get install -y curl ca-certificates tar && \
+    apt-get install -y git curl ca-certificates tar build-essential && \
     rm -rf /var/lib/apt/lists/*
 
 RUN uv pip install --system \
