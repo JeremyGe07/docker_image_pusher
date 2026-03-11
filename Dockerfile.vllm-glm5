@@ -1,0 +1,13 @@
+FROM vllm/vllm-openai:v0.17.0
+
+RUN apt-get update && \
+    apt-get install -y curl ca-certificates tar && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN uv pip install --system \
+    https://github.com/huggingface/transformers/archive/refs/heads/main.tar.gz
+
+RUN curl -L https://github.com/vllm-project/vllm/archive/refs/heads/main.tar.gz -o /tmp/vllm-main.tar.gz && \
+    tar -xzf /tmp/vllm-main.tar.gz -C /tmp && \
+    bash /tmp/vllm-main/tools/install_deepgemm.sh --cuda-version 12.9 && \
+    rm -rf /tmp/vllm-main /tmp/vllm-main.tar.gz
