@@ -8,7 +8,7 @@ RUN curl -fsSLo /tmp/cuda-keyring.deb \
     https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb && \
     dpkg -i /tmp/cuda-keyring.deb && \
     apt-get update && \
-    apt-get install -y cuda-toolkit-13-0 && \
+    apt-get install -y cuda-toolkit-12-8 && \
     rm -f /tmp/cuda-keyring.deb && \
     rm -rf /var/lib/apt/lists/*
 
@@ -17,5 +17,5 @@ RUN uv pip install --system \
 
 RUN curl -L https://github.com/vllm-project/vllm/archive/refs/heads/main.tar.gz -o /tmp/vllm-main.tar.gz && \
     tar -xzf /tmp/vllm-main.tar.gz -C /tmp && \
-    VLLM_DOCKER_BUILD_CONTEXT=1 bash /tmp/vllm-main/tools/install_deepgemm.sh --cuda-version 13.0 && \
+    VLLM_DOCKER_BUILD_CONTEXT=1 bash /tmp/vllm-main/tools/install_deepgemm.sh --cuda-version 12.8 && \
     rm -rf /tmp/vllm-main /tmp/vllm-main.tar.gz
