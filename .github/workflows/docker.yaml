@@ -180,7 +180,7 @@ jobs:
 
     - name: Build and push vLLM GLM5 image
       run: |
-        custom_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/vllm-openai:v0.17.0-glm5"
+        custom_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/vllm-openai:v0.18.0-glm5"
         echo "docker build -f Dockerfile.vllm-glm5 -t $custom_image ."
         docker build -f Dockerfile.vllm-glm5 -t "$custom_image" .
         echo "docker push $custom_image"
