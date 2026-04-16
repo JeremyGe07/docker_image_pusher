@@ -28,4 +28,6 @@
 # vllm/vllm-openai:nightly
 # ghcr.io/tenstorrent/tt-mlir/tt-mlir-ird-ubuntu-22-04
 # vllm/vllm-openai:v0.18.0
-vllm/vllm-openai:glm51
+# vllm/vllm-openai:glm51
+
+vllm/vllm-openai:nightly-x86_64
