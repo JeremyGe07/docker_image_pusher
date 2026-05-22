@@ -31,4 +31,5 @@
 # vllm/vllm-openai:glm51
 
 # vllm/vllm-openai:nightly-x86_64
-vllm/vllm-openai:v0.20.2-x86_64-ubuntu2404
+#vllm/vllm-openai:v0.20.2-x86_64-ubuntu2404
+vllm/vllm-openai:deepseekv4-cu129 
